@@ -13,7 +13,7 @@ import static org.junit.Assert.assertThrows;
 import static org.mockito.Mockito.times;
 
 @RunWith(MockitoJUnitRunner.class)
-public class LionTests {
+public class LionTest {
     private Lion lion;
 
     @Mock

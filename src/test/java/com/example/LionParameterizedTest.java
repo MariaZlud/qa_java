@@ -9,13 +9,13 @@ import org.mockito.Mockito;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class LionParameterizedTests {
+public class LionParameterizedTest {
     private Lion lion;
     private Feline feline;
     private final String sex;
     private final boolean hasMane;
 
-    public LionParameterizedTests(String sex, boolean hasMane) {
+    public LionParameterizedTest(String sex, boolean hasMane) {
         this.sex = sex;
         this.hasMane = hasMane;
     }
